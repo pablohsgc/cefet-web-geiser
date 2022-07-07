@@ -1,0 +1,30 @@
+{
+  "name": "cefet-web-geiser",
+  "version": "1.0.0",
+  "description": "Trabalho usando nodejs",
+  "main": "app.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "nodemon server/app.js",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablohsgc/cefet-web-geiser.git"
+  },
+  "author": "Pablo Henrique Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablohsgc/cefet-web-geiser/issues"
+  },
+  "homepage": "https://github.com/pablohsgc/cefet-web-geiser#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.19"
+  }
+}
